@@ -41,7 +41,7 @@ source ~/.bashrc
 ```
 apt-get install -y net-tools 
 ```
--### 安装 ping
+- ### 安装 ping
 ```
 apt-get install -y iputils-ping
 ```
