@@ -24,4 +24,11 @@ apt-get update
 apt-get install -y vim
 ```
 
-
+### docker 容器中配置java环境
+```
+vim ~/.bashrc
+export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_121  ## 这里要注意目录要换成自己解压的jdk 目录
+export JRE_HOME=${JAVA_HOME}/jre  
+export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib  
+export PATH=${JAVA_HOME}/bin:$PATH 
+```
