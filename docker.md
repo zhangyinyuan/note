@@ -45,7 +45,7 @@ apt-get install -y net-tools
 ```
 apt-get install -y iputils-ping
 ```
-- ### 指定的容器修改 host,如容器的名称为 php7-dev
+- ### 指定的容器修改 host,如容器的名称为 nginx
 ```
-docker exec php7-dev /bin/sh -c "echo 101.37.113.127 www.cnblogs.com >> /etc/hosts"
+docker exec nginx /bin/sh -c "echo 127.0.0.1 nginx >> /etc/hosts"
 ```
