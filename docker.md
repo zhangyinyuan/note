@@ -37,3 +37,11 @@ export PATH=${JAVA_HOME}/bin:$PATH
 ```
 source ~/.bashrc
 ```
+- ### 安装 ifconfig 
+```
+apt-get install -y net-tools 
+```
+-### 安装 ping
+```
+apt-get install -y iputils-ping
+```
